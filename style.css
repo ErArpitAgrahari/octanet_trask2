@@ -23,13 +23,13 @@ body {
   min-height: 400px;
   padding: 30px;
   background: transparent;
-  border: 2px solid #e6b7eca1;
+  border: 2px solid #4b2d4fa1;
   border-radius: 10px;
   backdrop-filter: blur(15px);
 }
 
 h1 {
-  color: #eee;
+  color: #9f47a7;
   text-align: center;
   margin-bottom: 36px;
 }
@@ -45,22 +45,22 @@ h1 {
   outline: none;
   padding: 10px 10px 10px 20px;
   background-color: transparent;
-  border: 2px solid #e6b7eca1;
+  border: 2px solid #ba863ca1;
   border-radius: 30px;
-  color: #eee;
+  color: #1f0505;
   font-size: 16px;
   margin-right: 10px;
 }
 
 .todo-input::placeholder {
-  color: #bfbfbf;
+  color: #6f1313;
 }
 
 .add-button {
   border: none;
   outline: none;
-  background: #e6b7eca1;
-  color: #fff;
+  background: #2d0732a1;
+  color: #4d1111;
   font-size: 35px;
   cursor: pointer;
   border-radius: 40px;
@@ -78,7 +78,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #463c7b;
+  background-color: #bc81e8;
   border-radius: 5px;
   margin: 10px 0;
   padding: 10px 12px;
@@ -104,7 +104,7 @@ h1 {
   display: flex;
   align-items: center;
   font-family: 'Roboto', sans-serif;
-  color: #eee;
+  color: #0876a1;
 }
 
 .todo span {
@@ -144,7 +144,7 @@ input:checked + span {
   background-color: transparent;
   border: none;
   cursor: pointer;
-  color: #eee;
+  color: #b3ff03;
   font-size: 24px;
 }
 
@@ -178,7 +178,7 @@ input:checked + span {
 }
 
 .filter {
-  color: #eee;
+  color: #400303;
   padding: 5px 15px;
   border-radius: 100px;
   border: 2px solid #e6b7eca1;
@@ -192,7 +192,7 @@ input:checked + span {
 
 .delete-all {
   display: flex;
-  color: #eee;
+  color: #211313;
   padding: 7px 15px;
   cursor: pointer;
   transition: all 0.2s ease;
